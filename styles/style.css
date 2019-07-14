@@ -9,7 +9,27 @@ body{
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(../sourse/background.jpg);
+	background-image: url(../source/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+#content{
+	text-align: center;
+	margin-top: 30%;
+}
+#content > h1{
+	display: block;
+	color: white;
+	font-family: Century Gothic, Montserrat ExtraBold, Montserrat, Century Gothic;
+	font-weight: bold;
+	font-size: 4em;
+}
+#line{
+	height: 0px;
+	max-width: 500px;
+	margin: auto;
+	border: 1.5px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	
 }
